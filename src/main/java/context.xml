@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+<bean id="house" class="com.wolken.wolkenapp.bean.MusicBean">
+<property name="songName" value="3:59am"></property>
+<property name="type" value="IndianRap"></property>
+<property name="artistName" value="Divine"></property>
+<property name="releaseYear" value="2020"></property>
+</bean>
+
+
+
+</beans>
